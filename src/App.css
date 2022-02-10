@@ -1,0 +1,186 @@
+* {
+    font-family: "Yu Gothic UI Light";
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    display: flex;
+
+}
+img {
+    width: 60px;
+    height: 60px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+border:1px solid;
+    margin:20px;
+}
+
+.flex {
+    display: flex;
+}
+
+
+.column {
+    flex-direction: column;
+}
+
+.toolbar {
+    width: 100%;
+    min-width: 800px;
+    height: 100px;
+    background-color:darkslateblue;
+    display: flex;
+    align-items: center;
+    border:solid;
+    border-width: 2px 2px 1px 0.5px;
+    overflow: hidden;
+    color:darkorange;
+
+}
+.modalBox{
+    height: 600px;
+    background-color: darkorange;
+    color:darkslateblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border:solid 0.5px;
+    overflow: hidden;
+}
+
+
+.spc-a {
+    justify-content: space-around;
+}
+
+.spc-btw {
+    justify-content: space-between;
+}
+
+input {
+    width: 300px;
+    height: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: black;
+}
+
+button {
+    border-radius: 8px;
+    background-color: #ff0015;
+    color: green;
+    width: 150px;
+    height: 30px;
+    border: 3px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 2px;
+}
+
+button:hover {
+    background-color: green;
+    color:red;
+}
+
+
+a {
+    margin: 20px;
+    text-decoration: none;
+    color: darkorange;
+}
+
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.centera {
+    align-items: center;
+}
+
+.centerj {
+    justify-content: center;
+}
+
+.allTasks {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+
+.gameBoard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.colorBox {
+    margin: 20px;
+    height: 140px;
+    width: 300px;
+}
+.mainBox{
+    width:55%;
+    display: flex;
+}
+.navbar{
+    background-color:darkslateblue;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    border:solid;
+    border-width: 1px 0.5px 2px 0.5px;
+    overflow: hidden;
+    color:darkorange;
+}
+.bigbox{
+    width: 150px;
+    height:200px;
+    background-color: rgb(238, 103, 16);
+    margin: 10px;
+    border:solid 0.5px;
+}
+.logo{
+    border-radius: 50px;
+    border:solid 2px;
+}
+.m10{
+    margin: 10px;
+}
+.centerBox{
+    width:100%;
+    min-height: 520px;
+    border:solid;
+    border-width: 0.5px 2px 2px 0.5px;
+    background-color:darkslateblue;
+    color:darkorange;
+}
+.mr50{
+    margin-right: 50px;
+}
+.figure{
+    background-color: #790e43;
+}
