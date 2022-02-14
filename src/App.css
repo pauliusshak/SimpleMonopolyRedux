@@ -2,12 +2,14 @@
     font-family: "Yu Gothic UI Light";
     margin: 0;
     padding: 0;
+    color:rebeccapurple;
 }
 
 .App {
     display: flex;
 
 }
+
 img {
     width: 60px;
     height: 60px;
@@ -20,14 +22,19 @@ img {
 .box {
     width: 100px;
     height: 100px;
-border:1px solid;
-    margin:20px;
+    border: 2px solid;
+    margin: 20px;
+    border-radius:8px;
+    background-color: rebeccapurple;
 }
 
 .flex {
     display: flex;
 }
 
+.rebeccapurple{
+    background-color: rebeccapurple !important;
+}
 
 .column {
     flex-direction: column;
@@ -37,24 +44,25 @@ border:1px solid;
     width: 100%;
     min-width: 800px;
     height: 100px;
-    background-color:darkslateblue;
+    background-color: #854aec;
     display: flex;
     align-items: center;
-    border:solid;
+    border: solid;
     border-width: 2px 2px 1px 0.5px;
     overflow: hidden;
-    color:darkorange;
+    color: darkorange;
 
 }
-.modalBox{
+
+.modalBox {
     height: 600px;
     background-color: darkorange;
-    color:darkslateblue;
+    color: darkslateblue;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
-    border:solid 0.5px;
+    border: solid 0.5px;
     overflow: hidden;
 }
 
@@ -77,7 +85,7 @@ input {
 
 button {
     border-radius: 8px;
-    background-color: #ff0015;
+    background-color: greenyellow;
     color: green;
     width: 150px;
     height: 30px;
@@ -91,7 +99,26 @@ button {
 
 button:hover {
     background-color: green;
-    color:red;
+    color: greenyellow;
+}
+
+.blue {
+    border-radius: 8px;
+    background-color: #6fb1e0;
+    color: #0404be;
+    width: 150px;
+    height: 30px;
+    border: 3px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.blue:hover {
+    background-color: #0404be;
+    color: #004b80;
 }
 
 
@@ -126,8 +153,6 @@ a {
 }
 
 
-
-
 .gameBoard {
     display: flex;
     flex-wrap: wrap;
@@ -142,45 +167,53 @@ a {
     height: 140px;
     width: 300px;
 }
-.mainBox{
-    width:55%;
+
+.mainBox {
+    width: 55%;
     display: flex;
 }
-.navbar{
-    background-color:darkslateblue;
+
+.navbar {
+    background-color: darkslateblue;
     width: 150px;
     display: flex;
     flex-direction: column;
-    border:solid;
+    border: solid;
     border-width: 1px 0.5px 2px 0.5px;
     overflow: hidden;
-    color:darkorange;
+    color: darkorange;
 }
-.bigbox{
+
+.bigbox {
     width: 150px;
-    height:200px;
+    height: 200px;
     background-color: rgb(238, 103, 16);
     margin: 10px;
-    border:solid 0.5px;
+    border: solid 0.5px;
 }
-.logo{
+
+.logo {
     border-radius: 50px;
-    border:solid 2px;
+    border: solid 2px;
 }
-.m10{
+
+.m10 {
     margin: 10px;
 }
-.centerBox{
-    width:100%;
+
+.centerBox {
+    width: 100%;
     min-height: 520px;
-    border:solid;
+    border: solid;
     border-width: 0.5px 2px 2px 0.5px;
-    background-color:darkslateblue;
-    color:darkorange;
+    background-color: darkslateblue;
+    color: darkorange;
 }
-.mr50{
+
+.mr50 {
     margin-right: 50px;
 }
-.figure{
+
+.figure {
     background-color: #790e43;
 }
